@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import clubApexLogo from "../../assets/images/brand/club-apex-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -52,7 +53,10 @@ const Footer = () => {
             className="footer-brand"
           >
             <div className="footer-brand-mark">
-              A
+              <img
+                src={clubApexLogo}
+                alt="Club Apex Logo"
+              />
             </div>
 
             <div>
