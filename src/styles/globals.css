@@ -979,12 +979,18 @@ p {
   background: var(--color-dark);
   color: var(--color-background);
 
-  font-size: var(--text-xl);
-  font-weight: var(--weight-bold);
+  overflow: hidden;
 
   transition:
     background var(--transition-normal),
     transform var(--transition-normal);
+}
+
+.navbar-brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .navbar-brand:hover .navbar-brand-mark {
@@ -1281,7 +1287,6 @@ p {
 
   color: var(--color-background);
 }
-
 .footer-brand-mark {
   width: 44px;
   height: 44px;
@@ -1295,8 +1300,14 @@ p {
 
   border-radius: 12px;
 
-  font-size: var(--text-xl);
-  font-weight: var(--weight-bold);
+  overflow: hidden;
+}
+
+.footer-brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .footer-brand-name {
