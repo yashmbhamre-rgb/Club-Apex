@@ -6,15 +6,15 @@ const statistics = [
     label: "Students Reached",
   },
   {
-    value: "20+",
-    label: "Technical Events",
-  },
-  {
-    value: "10+",
-    label: "Projects",
+    value: "$15,000",
+    label: "Cloud Credits Distributed",
   },
   {
     value: "∞",
+    label: "Technical Activities",
+  },
+  {
+    value: "24/7",
     label: "Ideas to Build",
   },
 ];
