@@ -1,3 +1,5 @@
+import openForgeImage from "../assets/images/events/openforge-2026.jpeg";
+
 const events = [
   {
     id: "openforge-2026",
@@ -22,15 +24,14 @@ const events = [
       "Understand the open-source contribution process",
       "Create branches and submit Pull Requests",
       "Get practical experience working with a development team",
-      "Build experience useful for future open-source opportunities"
+      "Build experience useful for future open-source opportunities",
     ],
 
     registrationLink:
       "https://forms.cloud.microsoft/r/gc11NiwgQV",
 
-    image:
-      "/src/assets/images/events/openforge-2026.jpg"
-  }
+    image: openForgeImage,
+  },
 ];
 
 export default events;
