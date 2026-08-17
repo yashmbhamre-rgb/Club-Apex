@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import clubApexLogo from "../../assets/images/brand/club-apex-logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,7 +51,10 @@ const Navbar = () => {
           onClick={closeMenu}
         >
           <div className="navbar-brand-mark">
-            A
+            <img
+              src={clubApexLogo}
+              alt="Club Apex Logo"
+            />
           </div>
 
           <div className="navbar-brand-text">
